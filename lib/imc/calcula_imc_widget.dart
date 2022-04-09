@@ -40,7 +40,7 @@ class _CalculaImcWidgetState extends State<CalculaImcWidget> {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Text(imc, style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white)),
+        Text("IMC de - $imc", style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white)),
         Text(alerta, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white)),
       ],
     );
